@@ -1,0 +1,3 @@
+# Input pseudo sequences, one sequence per line
+# Example: TCTC,4,CAGA translates to TCTC[0-4 of any nucleotide]CAGA
+TCTC,4,CAGA
