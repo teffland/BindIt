@@ -88,14 +88,14 @@ class Searcher():
             
     def analyze_file(self, file_name, regex_list, scan_prefix):
         # TODO: Make this process more sophisticated
-        # scann the doc
+        # scan the doc
         doc = docx.Document(file_name)
         data = ''.join([p.text for p in doc.paragraphs]) # convert doc into a big string
         for reg in regex_list: # scan the document, splicing out matching sequences
             split = zip(re.split(reg,data), re.findall(reg, data))
 
         # write out an edited version
-        scanned = docx.Document()
+        scanned = docx.Document('template.docx')
         p = scanned.add_paragraph('')
         for bad,good in split:
             # the inbetween sequences

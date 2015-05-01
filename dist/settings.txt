@@ -1,0 +1,16 @@
+# File storing the list of data files
+list of input files: infiles.txt         
+
+# File storing the list of sequences to search for
+list of generic sequences: sequences.txt 
+
+# Prefix to be added to new output file
+new file prefix: scanned               
+
+# Whether or not to search for permutations  
+permute sequences: False       
+
+# How much info is output while running [0-5]          
+verbosity: 5                             
+
+# NOTE: Comments must be on their own lines
