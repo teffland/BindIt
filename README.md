@@ -23,6 +23,7 @@ BindIt will take this sequence, convert it to the appropriate regular expression
 
 ###TODO:
 * Breakdown of where matched sequences occured in the gene
-* Match 1-edit-distance permutations of sequence templates
+* Print out how many matches in first 800 and after
+* Match 1-edit-distance permutations of sequence templates, Only one wild card per entire sequence at a time
 * Compatibility with filetypes other than docx
 * Bindings to enumberable to eliminate the need for data in file form
